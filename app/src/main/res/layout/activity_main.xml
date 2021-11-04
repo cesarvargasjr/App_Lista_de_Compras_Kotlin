@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="#FFFFFF">
+
+
+    <EditText
+    android:id="@+id/edtxt_produto"
+    android:hint="Nome do Produto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <Button
+    android:id="@+id/btn_inserir"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="Adicionar produto"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/underlineTexto"
+        android:textColor="#767876"
+        android:id="@+id/txt_tituloLista"
+        />
+
+    <ListView
+    android:id="@+id/list_view_produtos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"/>
+
+</LinearLayout>
+
